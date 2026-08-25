@@ -61,15 +61,15 @@ mysql -u root -p < ISMS.sql
 ## 📁 Repository Structure
 ```plaintext
 ISMS/
+├── screenshots/
+│   ├── er_diagram.png
+│   ├── tables_created.png
+│   ├── products_data.png
+│   ├── low_stock.png
+│   └── top_selling.png
 ├── ISMS.sql
-├── README.md
 ├── LICENSE
-└── screenshots/
-    ├── er_diagram.png
-    ├── tables_created.png
-    ├── products_data.png
-    ├── low_stock.png
-    └── top_selling.png
+└── README.md
 ```
 
 ## 📋 Sample Output (Report #6 – Low-Stock Alert)
