@@ -56,21 +56,22 @@ A complete **relational database system** for managing inventory, suppliers, war
    ```bash
    git clone [https://github.com/Maheen2307/ISMS.git](https://github.com/Maheen2307/ISMS.git)
    cd ISMS
+   ```
 3. Run the script:
-```bash
-mysql -u root -p < ISMS.sql
-```
+   ```bash
+   mysql -u root -p < ISMS.sql
+   ```
 4. The script creates the database, tables, sample data, and executes all 15 reports.
 
 ## 📁 Repository Structure
 ```plaintext
 ISMS/
 ├── screenshots/
-│   ├── erd.png
-│   ├── tables_created.png
-│   ├── products_data.png
-│   ├── low_stock.png
-│   └── top_selling.png
+│   ├── erd.png
+│   ├── tables_created.png
+│   ├── products_data.png
+│   ├── low_stock.png
+│   └── top_selling.png
 ├── ISMS.sql
 ├── LICENSE
 └── README.md
@@ -79,13 +80,12 @@ ISMS/
 ## 📋 Sample Output (Report #6 – Low-Stock Alert)
 ```plaintext
 +---------------------+----------------+---------------+----------+-----------------------+
-| ProductName         | WarehouseName  | StockQuantity | MinLevel | UnitsNeededToReorder  |
+| ProductName         | WarehouseName  | StockQuantity | MinLevel | UnitsNeededToReorder  |
 +---------------------+----------------+---------------+----------+-----------------------+
-| Macbook Pro         | LHR-Main       |             3 |        5 |                     2 |
-| Sofa Set            | MTN-Storage    |             5 |        2 |                    -3 |
+| Macbook Pro         | LHR-Main       |             3 |        5 |                     2 |
+| Sofa Set            | MTN-Storage    |             5 |        2 |                    -3 |
 +---------------------+----------------+---------------+----------+-----------------------+
 ```
-
 
 ## ⚠️ Limitations
 - **Stored Procedures:** Lacks dedicated stored procedures for complex multi-table operational logic (e.g., executing checkout flows).
