@@ -2,7 +2,6 @@
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📖 Objective
 A complete **relational database system** for managing inventory, suppliers, warehouses, employees, customers, orders, payments, shipments, and returns. Demonstrates **database design, integrity constraints, triggers, views, CTEs, window functions, and analytical reporting** using MySQL.
